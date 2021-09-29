@@ -3,6 +3,10 @@ apply plugin: 'com.android.library'
 // http://www.flexlabs.org/2013/06/using-local-aar-android-library-packages-in-gradle-builds
 apply plugin: 'maven-publish'
 
+classpath plugin:  'com.github.dcendents:android-maven'
+group = 'com.github.mehdiwaysi'
+
+
 android {
 
     compileSdkVersion rootProject.compileSdkVersion
